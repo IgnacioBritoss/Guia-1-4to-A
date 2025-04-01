@@ -5,15 +5,15 @@ using UnityEngine;
 public class DatosDelUsuario : MonoBehaviour
 {
     public string nombreUsuario;
-    [SerializeField] int edadUsuario;
-    [SerializeField] float alturaUsuario;
-    [SerializeField] bool esDonante;
+    public int edadUsuario;
+    public float alturaUsuario;
+    public bool esDonante;
 
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Mi nombre es " + nombreUsuario);
-        Debug.Log("Tengo " + edadUsuario + " años.");
+        Debug.Log("Mi nombre es " + nombreUsuario + ", Tengo " + edadUsuario + " años" + ", mido" + alturaUsuario + " metros y es " + esDonante + " que soy donante de organos");
+        
     }
 
     // Update is called once per frame
