@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class calculopersonalizado : MonoBehaviour 
-  {  
-public int num1;
-public int num2;
-public int resultado;
-
+public class calculopersonalizado : MonoBehaviour
+{
+    public int num1;
+    public int num2;
+    public int resultado;
 
     // Start is called before the first frame update
     void Start()
@@ -15,7 +14,7 @@ public int resultado;
         resultado = num1 + num2;
         Debug.Log("el resultado de la suma es " + resultado);
         resultado = num1 / num2;
-        Debug.Log("el resultado de la suma es division " + resultado);
+        Debug.Log("el resultado de la division es  " + resultado);
         resultado = num1 * num2;
         Debug.Log("el resultado de la multiplicasion es " + resultado);
         resultado = num1 - num2;
